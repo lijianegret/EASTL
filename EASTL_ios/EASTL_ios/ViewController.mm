@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
-#include "vector.h"
+#include "EASTL/vector.h"
 
 @interface ViewController ()
 
