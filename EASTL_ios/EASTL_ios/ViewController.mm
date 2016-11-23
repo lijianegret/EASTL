@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#include "TestClass.hpp"
 #include "vector.h"
 
 @interface ViewController ()
@@ -19,15 +20,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    int a = 1;
-//    char* str = (char*)::operator new(100);
-    eastl::vector<int> v;
-//    v.push_back(0);
-    v.push_back(a);
-    for (int i = 2; i < 10000; i++)
+    eastl::vector<TestClass*> v;
+    
+    v.push_back(new TestClass());
+    v.push_back(new TestClass("11111"));
+    v.push_back(new TestClass());
+    v.back()->setData("22222");
+    v.front()->setData("00000");
+    
+    for (int i = 0; i < v.size(); i++)
     {
-        v.push_back(i);
+        v[i]->printData();
     }
+    
     NSLog(@"============ %ld", v.size());
 }
 
