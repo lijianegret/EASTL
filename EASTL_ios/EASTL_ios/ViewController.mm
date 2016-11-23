@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
-#include "EASTL/map.h"
+#include "EASTL/deque.h"
 
 @interface ViewController ()
 
@@ -20,16 +20,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    eastl::map<int, TestClass*> m;
+    eastl::deque<TestClass*> d;
     
-    m.insert(eastl::pair<int, TestClass*>(0, new TestClass("00000")));
-    m.insert(eastl::pair<int, TestClass*>(1, new TestClass("11111")));
-    m.insert(eastl::pair<int, TestClass*>(2, new TestClass("22222")));
-    m.insert(eastl::pair<int, TestClass*>(3, new TestClass("33333")));
+    d.push_back(new TestClass("33333"));
+    d.push_back(new TestClass("44444"));
+    d.push_back(new TestClass("55555"));
+    d.push_front(new TestClass("22222"));
+    d.push_front(new TestClass("11111"));
     
-    m.find(2)->second->printData();
+    for (int i = 0; i < d.size(); i++)
+    {
+        d[i]->printData();
+    }
     
-    NSLog(@"============ %ld", m.size());
+    NSLog(@"============ %ld", d.size());
 }
 
 - (void)didReceiveMemoryWarning {
