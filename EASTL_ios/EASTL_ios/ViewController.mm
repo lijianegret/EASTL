@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
-#include "EASTL/stack.h"
+#include "EASTL/map.h"
 
 @interface ViewController ()
 
@@ -20,15 +20,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    eastl::stack<TestClass*> s;
+    eastl::map<int, TestClass*> m;
     
-    s.push(new TestClass());
-    s.top()->setData("00000");
-    s.push(new TestClass("11111"));
-    s.push(new TestClass("22222"));
-    s.pop();
+    m.insert(eastl::pair<int, TestClass*>(0, new TestClass("00000")));
+    m.insert(eastl::pair<int, TestClass*>(1, new TestClass("11111")));
+    m.insert(eastl::pair<int, TestClass*>(2, new TestClass("22222")));
+    m.insert(eastl::pair<int, TestClass*>(3, new TestClass("33333")));
     
-    NSLog(@"============ %ld", s.size());
+    m.find(2)->second->printData();
+    
+    NSLog(@"============ %ld", m.size());
 }
 
 - (void)didReceiveMemoryWarning {
