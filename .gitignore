@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+EASTL_ios/Build
+EASTL_ios/DerivedData
+
