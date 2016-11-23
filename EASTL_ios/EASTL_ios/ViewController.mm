@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
-#include "EASTL/vector.h"
+#include "EASTL/stack.h"
 
 @interface ViewController ()
 
@@ -20,20 +20,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    eastl::vector<TestClass*> v;
+    eastl::stack<TestClass*> s;
     
-    v.push_back(new TestClass());
-    v.push_back(new TestClass("11111"));
-    v.push_back(new TestClass());
-    v.back()->setData("22222");
-    v.front()->setData("00000");
+    s.push(new TestClass());
+    s.top()->setData("00000");
+    s.push(new TestClass("11111"));
+    s.push(new TestClass("22222"));
+    s.pop();
     
-    for (int i = 0; i < v.size(); i++)
-    {
-        v[i]->printData();
-    }
-    
-    NSLog(@"============ %ld", v.size());
+    NSLog(@"============ %ld", s.size());
 }
 
 - (void)didReceiveMemoryWarning {

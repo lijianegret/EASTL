@@ -24,6 +24,7 @@ TestClass::TestClass(const char* data)
 TestClass::~TestClass()
 {
     delete [] _data;
+    printf("delete TestClass %p", this);
 }
 
 void TestClass::setData(const char *data)

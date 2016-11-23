@@ -13,9 +13,12 @@
 #define EASTL_STACK_H
 
 
-#include <EASTL/internal/config.h>
-#include <EASTL/vector.h>
-#include <EASTL/initializer_list.h>
+//#include <EASTL/internal/config.h>
+//#include <EASTL/vector.h>
+//#include <EASTL/initializer_list.h>
+#include "config.h"
+#include "vector.h"
+#include "initializer_list.h"
 #include <stddef.h>
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
