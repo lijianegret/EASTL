@@ -14,18 +14,15 @@
 #define EASTL_INTERNAL_GENERIC_ITERATOR_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once
 #endif
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/type_traits.h>
-#include "config.h"
-#include "iterator.h"
-#include "type_traits.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/iterator.h"
+#include "EASTL/type_traits.h"
+
 
 #ifdef _MSC_VER
 	#pragma warning(push)           // VC++ generates a bogus warning that you cannot code away.

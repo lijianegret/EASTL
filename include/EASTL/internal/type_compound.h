@@ -7,8 +7,7 @@
 #define EASTL_INTERNAL_TYPE_COMPOUND_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once
 #endif

@@ -3,8 +3,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-//#include <EASTL/numeric_limits.h>
-#include "numeric_limits.h"
+#include "EASTL/numeric_limits.h"
 
 #if EASTL_CUSTOM_FLOAT_CONSTANTS_REQUIRED
 	#include <limits> // See notes below about usage of this header.

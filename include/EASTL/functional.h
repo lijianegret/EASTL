@@ -6,18 +6,12 @@
 #define EASTL_FUNCTIONAL_H
 
 
-//#include <EABase/eabase.h>
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/allocator_traits_fwd_decls.h>
-//#include <EASTL/internal/move_help.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/internal/functional_base.h>
-#include "eabase.h"
-#include "config.h"
-#include "allocator_traits_fwd_decls.h"
-#include "move_help.h"
-#include "type_traits.h"
-#include "functional_base.h"
+#include "EABase/eabase.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/allocator_traits_fwd_decls.h"
+#include "EASTL/internal/move_help.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/internal/functional_base.h"
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
@@ -1131,8 +1125,7 @@ namespace eastl
 
 #if EASTL_FUNCTION_ENABLED
 	EA_DISABLE_VC_WARNING(4510 4512 4610)  // disable warning: function_manager not generating default constructor and default assignment operators.
-//	#include <EASTL/internal/function.h>
-#include "function.h"
+	#include "EASTL/internal/function.h"
 	EA_RESTORE_VC_WARNING()
 #endif
 

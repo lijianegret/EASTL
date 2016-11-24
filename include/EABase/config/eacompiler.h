@@ -179,8 +179,7 @@
 #ifndef INCLUDED_eacompiler_H
 #define INCLUDED_eacompiler_H
 
-//	#include <EABase/config/eaplatform.h>
-#include "eaplatform.h"
+	#include "EABase/config/eaplatform.h"
 
 	// Note: This is used to generate the EA_COMPILER_STRING macros
 	#ifndef INTERNAL_STRINGIZE

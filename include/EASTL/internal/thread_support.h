@@ -7,13 +7,11 @@
 #define EASTL_INTERNAL_THREAD_SUPPORT_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once
 #endif
-//#include <EASTL/internal/config.h>
-#include "config.h"
+#include "EASTL/internal/config.h"
 
 #if defined(EA_HAVE_CPP11_MUTEX) && !defined(EA_PLATFORM_MICROSOFT) && !defined(EA_PLATFORM_UNIX) // We stick with platform-specific mutex support to the extent possible, as it's currently more reliably available.
 	#define EASTL_CPP11_MUTEX_ENABLED 1

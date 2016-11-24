@@ -3,12 +3,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/string.h>
-//#include <EABase/eabase.h>
-#include "config.h"
-#include "string.h"
-#include "eabase.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/string.h"
+#include "EABase/eabase.h"
 
 #if defined(EA_PLATFORM_MICROSOFT)
 	#pragma warning(push, 0)

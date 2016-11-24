@@ -7,12 +7,9 @@
 #define EASTL_ITERATOR_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/move_help.h>
-//#include <EASTL/initializer_list.h>
-#include "config.h"
-#include "move_help.h"
-#include "initializer_list.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/move_help.h"
+#include "EASTL/initializer_list.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

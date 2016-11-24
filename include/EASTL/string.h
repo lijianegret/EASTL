@@ -88,22 +88,15 @@
 #ifndef EASTL_STRING_H
 #define EASTL_STRING_H
 
-#include <cstring>
 
-//#include <EASTL/internal/config.h>
-#include "config.h"
+#include "EASTL/internal/config.h"
 #if EASTL_ABSTRACT_STRING_ENABLED
-//	#include <EASTL/bonus/string_abstract.h>
-#include "string_abstract.h"
+	#include <EASTL/bonus/string_abstract.h>
 #else // 'else' encompasses the entire rest of this file.
-//#include <EASTL/allocator.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/algorithm.h>
-//#include <EASTL/initializer_list.h>
-#include "allocator.h"
-#include "iterator.h"
-#include "algorithm.h"
-#include "initializer_list.h"
+#include "EASTL/allocator.h"
+#include "EASTL/iterator.h"
+#include "EASTL/algorithm.h"
+#include "EASTL/initializer_list.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)
@@ -119,7 +112,7 @@ EA_DISABLE_GCC_WARNING(-Wtype-limits)
 #include <wchar.h>
 EA_RESTORE_GCC_WARNING()
 
-//	#include <string.h> // strlen, etc.
+	#include <string.h> // strlen, etc.
 #ifdef _MSC_VER
 	#pragma warning(pop)
 #endif

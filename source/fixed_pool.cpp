@@ -3,10 +3,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-//#include <EASTL/internal/fixed_pool.h>
-//#include <EASTL/fixed_allocator.h>
-#include "fixed_pool.h"
-#include "fixed_allocator.h"
+#include "EASTL/internal/fixed_pool.h"
+#include "EASTL/fixed_allocator.h"
 
 
 namespace eastl

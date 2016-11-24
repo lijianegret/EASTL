@@ -19,22 +19,16 @@
 #define EASTL_INTERNAL_FIXED_POOL_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once
 #endif
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/functional.h>
-//#include <EASTL/memory.h>
-//#include <EASTL/allocator.h>
-//#include <EASTL/type_traits.h>
-#include "config.h"
-#include "functional.h"
-#include "memory.h"
-#include "allocator.h"
-#include "type_traits.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/functional.h"
+#include "EASTL/memory.h"
+#include "EASTL/allocator.h"
+#include "EASTL/type_traits.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

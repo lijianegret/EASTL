@@ -7,16 +7,14 @@
 #define EASTL_INTERNAL_MOVE_HELP_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once
 #endif
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/type_traits.h>
-#include "config.h"
-#include "type_traits.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/type_traits.h"
+
 
 // C++11's rvalue references aren't supported by earlier versions of C++.
 // It turns out that in a number of cases under earlier C++ versions we can 

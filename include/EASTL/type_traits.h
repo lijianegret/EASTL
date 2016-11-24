@@ -238,8 +238,7 @@
 
 
 
-//#include <EASTL/internal/config.h>
-#include "config.h"
+#include "EASTL/internal/config.h"
 #include <stddef.h>                 // Is needed for size_t usage by some traits.
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
@@ -933,15 +932,11 @@ namespace eastl
 
 
 // The following files implement the type traits themselves.
-//#include <EASTL/internal/type_fundamental.h>
-//#include <EASTL/internal/type_transformations.h>
-//#include <EASTL/internal/type_properties.h>
-//#include <EASTL/internal/type_compound.h>
-//#include <EASTL/internal/type_pod.h>
-#include "type_fundamental.h"
-#include "type_transformations.h"
-#include "type_properties.h"
-#include "type_compound.h"
-#include "type_pod.h"
+#include "EASTL/internal/type_fundamental.h"
+#include "EASTL/internal/type_transformations.h"
+#include "EASTL/internal/type_properties.h"
+#include "EASTL/internal/type_compound.h"
+#include "EASTL/internal/type_pod.h"
+
 
 #endif // Header include guard

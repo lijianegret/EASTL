@@ -15,10 +15,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-//#include <EABase/eabase.h>
-//#include <EASTL/internal/config.h>
-#include "eabase.h"
-#include "config.h"
+#include "EABase/eabase.h"
+#include "EASTL/internal/config.h"
 
 namespace eastl
 {

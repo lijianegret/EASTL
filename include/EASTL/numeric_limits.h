@@ -33,10 +33,8 @@
 #define EASTL_NUMERIC_LIMITS_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/type_traits.h>
-#include "config.h"
-#include "type_traits.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/type_traits.h"
 #include <limits.h>                 // C limits.h header
 #include <float.h>
 #if defined(_YVALS)                 // Dinkumware.

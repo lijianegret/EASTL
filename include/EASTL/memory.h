@@ -58,29 +58,17 @@
 #define EASTL_MEMORY_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/generic_iterator.h>
-//#include <EASTL/internal/pair_fwd_decls.h>
-//#include <EASTL/internal/functional_base.h>
-//#include <EASTL/internal/allocator_traits_fwd_decls.h>
-//#include <EASTL/algorithm.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/allocator.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/utility.h>
-//#include <EASTL/numeric_limits.h>
-#include "config.h"
-#include "generic_iterator.h"
-#include "pair_fwd_decls.h"
-#include "functional_base.h"
-#include "allocator_traits_fwd_decls.h"
-#include "algorithm.h"
-#include "type_traits.h"
-#include "allocator.h"
-#include "iterator.h"
-#include "utility.h"
-#include "numeric_limits.h"
-
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/generic_iterator.h"
+#include "EASTL/internal/pair_fwd_decls.h"
+#include "EASTL/internal/functional_base.h"
+#include "EASTL/internal/allocator_traits_fwd_decls.h"
+#include "EASTL/algorithm.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/allocator.h"
+#include "EASTL/iterator.h"
+#include "EASTL/utility.h"
+#include "EASTL/numeric_limits.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)
@@ -1549,8 +1537,7 @@ namespace eastl
 
 } // namespace eastl
 
-//#include <EASTL/internal/allocator_traits.h>
-#include "allocator_traits.h"
+#include "EASTL/internal/allocator_traits.h"
 
 EA_RESTORE_SN_WARNING()
 

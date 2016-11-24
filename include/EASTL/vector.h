@@ -33,20 +33,13 @@
 #define EASTL_VECTOR_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/allocator.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/algorithm.h>
-//#include <EASTL/initializer_list.h>
-//#include <EASTL/memory.h>
-#include "config.h"
-#include "allocator.h"
-#include "type_traits.h"
-#include "iterator.h"
-#include "algorithm.h"
-#include "initializer_list.h"
-#include "memory.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/allocator.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/iterator.h"
+#include "EASTL/algorithm.h"
+#include "EASTL/initializer_list.h"
+#include "EASTL/memory.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

@@ -58,11 +58,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #ifndef EASTL_EABASE_DISABLED
-//	#include <EABase/eabase.h>
-#include "eabase.h"
+	#include "EABase/eabase.h"
 #endif
-//#include <EABase/eahave.h>
-#include "eahave.h"
+#include "EABase/eahave.h"
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)
 	#pragma once

@@ -3,14 +3,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/thread_support.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/memory.h>
-#include "config.h"
-#include "thread_support.h"
-#include "type_traits.h"
-#include "memory.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/thread_support.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/memory.h"
 
 #if defined(EA_PLATFORM_MICROSOFT)
 	#pragma warning(push, 0)

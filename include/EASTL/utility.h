@@ -7,25 +7,16 @@
 #define EASTL_UTILITY_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/functional.h>
-//#include <EASTL/internal/move_help.h>
-//#include <EABase/eahave.h>
-#include "config.h"
-#include "type_traits.h"
-#include "iterator.h"
-#include "functional.h"
-#include "move_help.h"
-#include "eahave.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/iterator.h"
+#include "EASTL/functional.h"
+#include "EASTL/internal/move_help.h"
+#include "EABase/eahave.h"
 
-//#include <EASTL/internal/integer_sequence.h>
-//#include <EASTL/internal/tuple_fwd_decls.h>
-//#include <EASTL/internal/in_place_t.h>
-#include "integer_sequence.h"
-#include "tuple_fwd_decls.h"
-#include "in_place_t.h"
+#include "EASTL/internal/integer_sequence.h"
+#include "EASTL/internal/tuple_fwd_decls.h"
+#include "EASTL/internal/in_place_t.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push)           // VC++ generates a bogus warning that you cannot code away.

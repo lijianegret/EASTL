@@ -102,8 +102,7 @@
 #define INCLUDED_eahave_H
 
 
-//#include <EABase/eabase.h>
-#include "eabase.h"
+#include "EABase/eabase.h"
 
 
 #if defined(EA_PRAGMA_ONCE_SUPPORTED)

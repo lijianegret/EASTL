@@ -71,20 +71,13 @@
 #define EASTL_DEQUE_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/allocator.h>
-//#include <EASTL/algorithm.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/memory.h>
-//#include <EASTL/initializer_list.h>
-#include "config.h"
-#include "allocator.h"
-#include "algorithm.h"
-#include "type_traits.h"
-#include "iterator.h"
-#include "memory.h"
-#include "initializer_list.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/allocator.h"
+#include "EASTL/algorithm.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/iterator.h"
+#include "EASTL/memory.h"
+#include "EASTL/initializer_list.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

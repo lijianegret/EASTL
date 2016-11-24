@@ -87,10 +87,8 @@
 #ifndef INCLUDED_eacompilertraits_H
 #define INCLUDED_eacompilertraits_H
 
-//	#include <EABase/config/eaplatform.h>
-//	#include <EABase/config/eacompiler.h>
-#include "eaplatform.h"
-#include "eacompiler.h"
+	#include "EABase/config/eaplatform.h"
+	#include "EABase/config/eacompiler.h"
 
 
 	// Metrowerks uses #defines in its core C header files to define 

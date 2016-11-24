@@ -8,7 +8,13 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
+
+#include "EASTL/deque.h"
+#include "EASTL/map.h"
 #include "EASTL/set.h"
+#include "EASTL/stack.h"
+#include "EASTL/string.h"
+#include "EASTL/vector.h"
 
 @interface ViewController ()
 

@@ -13,18 +13,12 @@
 #define EASTL_FIXED_ALLOCATOR_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/fixed_pool.h>
-//#include <EASTL/functional.h>
-//#include <EASTL/memory.h>
-//#include <EASTL/allocator.h>
-//#include <EASTL/type_traits.h>
-#include "config.h"
-#include "fixed_pool.h"
-#include "functional.h"
-#include "memory.h"
-#include "allocator.h"
-#include "type_traits.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/fixed_pool.h"
+#include "EASTL/functional.h"
+#include "EASTL/memory.h"
+#include "EASTL/allocator.h"
+#include "EASTL/type_traits.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

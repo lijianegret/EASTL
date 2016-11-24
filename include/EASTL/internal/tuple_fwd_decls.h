@@ -5,8 +5,7 @@
 #ifndef EASTL_TUPLE_FWD_DECLS_H
 #define EASTL_TUPLE_FWD_DECLS_H
 
-//#include <EASTL/internal/config.h>
-#include "config.h"
+#include "EASTL/internal/config.h"
 
 #if EASTL_TUPLE_ENABLED
 

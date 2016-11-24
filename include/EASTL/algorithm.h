@@ -231,28 +231,17 @@
 #define EASTL_ALGORITHM_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/type_traits.h>
-//#include <EASTL/internal/move_help.h>
-//#include <EASTL/internal/copy_help.h>
-//#include <EASTL/internal/fill_help.h>
-//#include <EASTL/initializer_list.h>
-//#include <EASTL/iterator.h>
-//#include <EASTL/functional.h>
-//#include <EASTL/utility.h>
-//#include <EASTL/internal/generic_iterator.h>
-//#include <EASTL/random.h>
-#include "config.h"
-#include "type_traits.h"
-#include "move_help.h"
-#include "copy_help.h"
-#include "fill_help.h"
-#include "initializer_list.h"
-#include "iterator.h"
-#include "functional.h"
-#include "utility.h"
-#include "generic_iterator.h"
-#include "random.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/type_traits.h"
+#include "EASTL/internal/move_help.h"
+#include "EASTL/internal/copy_help.h"
+#include "EASTL/internal/fill_help.h"
+#include "EASTL/initializer_list.h"
+#include "EASTL/iterator.h"
+#include "EASTL/functional.h"
+#include "EASTL/utility.h"
+#include "EASTL/internal/generic_iterator.h"
+#include "EASTL/random.h"
 
 #ifdef _MSC_VER
 	#pragma warning(push, 0)

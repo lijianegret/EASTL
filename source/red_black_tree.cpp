@@ -24,10 +24,8 @@
 
 
 
-//#include <EASTL/internal/config.h>
-//#include <EASTL/internal/red_black_tree.h>
-#include "config.h"
-#include "red_black_tree.h"
+#include "EASTL/internal/config.h"
+#include "EASTL/internal/red_black_tree.h"
 #include <stddef.h>
 
 

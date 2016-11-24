@@ -11,10 +11,7 @@
 	#pragma once
 #endif
 
-#include <string.h>
-
-//#include <EASTL/internal/config.h>
-#include "config.h"
+#include "EASTL/internal/config.h"
 
 namespace eastl
 {

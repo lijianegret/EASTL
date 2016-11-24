@@ -7,10 +7,8 @@
 #define EASTL_ALLOCATOR_H
 
 
-//#include <EASTL/internal/config.h>
-//#include <EABase/nullptr.h>
-#include "config.h"
-#include "nullptr.h"
+#include "EASTL/internal/config.h"
+#include "EABase/nullptr.h"
 #include <stddef.h>
 
 
