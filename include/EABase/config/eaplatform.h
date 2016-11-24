@@ -122,6 +122,10 @@
 	#elif defined(__i386__)
 		#define EA_PROCESSOR_X86 1
 		#define EA_PLATFORM_DESCRIPTION "Android on x86"
+	#elif defined(__aarch64__)
+		#define EA_ABI_ARM_LINUX 1
+		#define EA_PROCESSOR_ARM64 1
+		#define EA_PLATFORM_DESCRIPTION "Android on ARM64"
 	#else
 		#error Unknown processor
 	#endif
