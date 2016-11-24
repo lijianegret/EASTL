@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #include "TestClass.hpp"
-#include "EASTL/deque.h"
+#include "EASTL/set.h"
 
 @interface ViewController ()
 
@@ -20,20 +20,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    eastl::deque<TestClass*> d;
+    eastl::set<TestClass*> s;
     
-    d.push_back(new TestClass("33333"));
-    d.push_back(new TestClass("44444"));
-    d.push_back(new TestClass("55555"));
-    d.push_front(new TestClass("22222"));
-    d.push_front(new TestClass("11111"));
+    s.insert(new TestClass("00000"));
     
-    for (int i = 0; i < d.size(); i++)
-    {
-        d[i]->printData();
-    }
+//    for (int i = 0; i < d.size(); i++)
+//    {
+//        d[i]->printData();
+//    }
     
-    NSLog(@"============ %ld", d.size());
+    NSLog(@"============ %ld", s.size());
 }
 
 - (void)didReceiveMemoryWarning {
