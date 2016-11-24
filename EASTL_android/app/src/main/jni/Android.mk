@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := EASTL
 
 EASTL_SOURCE = ../../../../../source
-LOCAL_SRC_FILES := com_example_egret0_eastl_android_NativeUtils.cpp\
+LOCAL_SRC_FILES := $(EASTL_SOURCE)/android/jniShell.cpp\
     $(EASTL_SOURCE)/allocator_eastl.cpp\
     $(EASTL_SOURCE)/assert.cpp\
     $(EASTL_SOURCE)/fixed_pool.cpp\
